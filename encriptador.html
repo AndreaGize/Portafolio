@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Space+Mono:ital@1&display=swap" rel="stylesheet" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div id="particles-js"></div>  
+   
+    <main>
+        <section class="cuerpo">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <p class="informacion">Sólo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="cuerpo">
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="particles.js"></script>
+<script src="particulas.js"></script>
+
+<script src="java.js"></script>
+    
+</body>
+<footer>
+    <div>
+        <img class="logo" src="imagen.desafio/Logoblanco.png" alt="Logo Alura">
+        <p class="Copyright"> &copy Copyright Gizela Tejo - 2023</p>  
+    </div>
+    
+</footer>
+</html>
